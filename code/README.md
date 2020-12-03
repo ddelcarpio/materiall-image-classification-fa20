@@ -1,5 +1,13 @@
-# code folder
+# Code Folder
 
-format still in progress... 
+This folder contains all the preliminary preprocessing, data exploration, and modeling research for Materiall's image classification harness. Notebook titles are prefixed with the author's initials: 
 
-* added a notebook detailing the structure of the json starter scrape, might be a useful reference [Samantha]
+- BS: Bharadwaj Swaminathan
+- DAD: Daniel Alejandro del Carpio
+- PN: Parker Nelson
+- ST: Samantha Tang
+- VL: Vincent Lao
+
+The final notebook containing the model harness is located in 'server_nn.ipynb'. 
+
+
