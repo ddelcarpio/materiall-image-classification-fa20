@@ -3,7 +3,7 @@
 This folder contains all the preliminary preprocessing, data exploration, and modeling research for Materiall's image classification harness. Each subfolder in this directory organizes and outlines the process we took to reach our finalized model. Note - Many of these notebooks were used for individual exploration purposes and thus formal documentation may not have been included. However, our finalized code is stored in the 06_final_model folder and has all of the proper documentation needed to understand how to run and reproduce our completed work. 
 
 To summarize: 
-- **01_webscraping - 05_segmentation**: These folders contain scratch work and documents our thought process and explorative research. 
+- **01_webscraping - 05_segmentation**: These folders contain scratch work and documents our thought process and exploration. 
 - **06_final_model**: This folder contains our finalized code and has all the proper documentation. 
 
 
