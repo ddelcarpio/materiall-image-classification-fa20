@@ -18,7 +18,7 @@ To test our model within the 'server_nn.ipynb' Jupyter notebook, please follow t
 	- run_test_harness({insert individual dataset}) - individual datasets available include 'fremont_dataset', 'sa_dataset', or 'ny_dataset'
 	Additional parameters such as epochs, batch_size, shape, and other model hyperparameters are also optional declarations.
 
-**Note**: The following datasets reference files and filepaths specific the Materiall's 54.186.23.133 server. 
+**Note**: The specificed datasets reference files and filepaths specific to Materiall's 54.186.23.133 server. 
 
 
 Notebook titles are prefixed with the author's initials: 
