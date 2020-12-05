@@ -13,9 +13,7 @@ The final notebook containing the model harness is located in 06_final_model wit
 To test our model within the 'server_nn.ipynb' Jupyter notebook, please follow these instructions:
 1. Run all import and function cells
 2. Run one of the following functions: 
-	- ```python 
-		run_test_harness('all')
-	  ```
+	- ```python run_test_harness('all')```
 	- ```run_test_harness('binary')```
 	- ```run_test_harness({insert individual dataset})``` - individual datasets available include 'fremont_dataset', 'sa_dataset', or 'ny_dataset'
 	Additional parameters such as epochs, batch_size, shape, and other model hyperparameters are also optional declarations.
