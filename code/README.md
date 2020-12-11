@@ -10,7 +10,7 @@ To summarize:
 ### Reproducing and Running our Model
 The final notebook containing the model harness is located in **```06_final_model```** within the **```server_nn.ipynb```** notebook. A python script containing the same code can be found in **```'server_nn.py'```**. 
 
-To test our model within the 'server_nn.ipynb' Jupyter notebook, please follow these instructions:
+To test our model within the ```'server_nn.ipynb'``` Jupyter notebook, please follow these instructions on the correct server:
 1. Run all import and function cells
 2. Run one of the following functions: 
 	- ```run_test_harness('all')```
@@ -18,7 +18,7 @@ To test our model within the 'server_nn.ipynb' Jupyter notebook, please follow t
 	- ```run_test_harness({insert individual dataset})``` - individual datasets available include ```'fremont_dataset'```, ```'sa_dataset'```, or ```'ny_dataset'```
 	Additional parameters such as epochs, batch_size, shape, and other model hyperparameters are also optional declarations.
 
-**Note**: The specificed datasets reference files and filepaths specific to Materiall's 54.186.23.133 server. 
+**Note**: The specificed datasets reference files and filepaths specific to Materiall's 54.xxx.xx.xxx server. If you want to run the notebook or code outside of this server, please change all image filepaths and ensure that your environment has installed the correct libraries. 
 
 
 Notebook titles are prefixed with the author's initials: 
