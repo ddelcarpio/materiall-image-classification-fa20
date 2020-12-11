@@ -1,5 +1,9 @@
 # Data Folder
 
+This folder contains all of the data we used in our exploration, pre-processing and model(s). We broke them down in two categories csv and json. 
+
+To summarize: 
+
  - csv
  	- Files stored in the csv folder are data collected through several of the preprocessing and webscraping notebooks (which can be found in the 'code' folder). These image links were data either scraped directly from Realtor.com or extracted from the json files stored in the 'json' folder. 
 
