@@ -1,4 +1,4 @@
-# Image Classification Models for Real Estate Home Images
+# Computer Vision for Real Estate Home Images
 
 
 This is the repository for the Fall 2020 IEOR 135: Data Science with Venture Applications (also known as [Data X](https://datax.berkeley.edu/)) class at UC Berkeley. It is a semester long project to solve a data science related problem for a company or research related interests. We worked with [Materiall](https://materiall.com/) this semester to try and understand the driving features in the home buying market so that Materiall can improve its recommendation engine. The repository is setup as follows:
