@@ -1,7 +1,22 @@
-# materiall-image-classification-fa20
-BRINGING SCIENCE TO THE ART OF HOME BUYING
+# Imagine Classification Models for Materiall
 
-This is the repository for the Fall 2020 IEOR 135: Data Science with Venture Applications (also known as [Data X](https://datax.berkeley.edu/)) class at UC Berkeley. It is a semester long project to solve a Data Science related problem for a company or research related interests. We worked with [Materiall](https://materiall.com/) this semester to try and understand the driving features in the home buying market so that Materiall can improve its reccomendation engine. We started by scraping [Realtor.com](https://www.realtor.com/) for home images with the intent to eventually determine the features within the images, such as an island within a kitchen. Once the webscraping was completed, we designed a few neural networks to make a pipeline to detect objects within the images. The first iteration was whether the image was indoors or outdoors, then which room if it was indoors, and finally which features in the room given the room type. Due to the limitations of time and data, our team only completed up until the room classifier and did not get to the object detection within those images. Also, the basic decision tree also needs to be set up. 
 
-There are README docs in each of the folders to describe their contents and each jupyter notebook is throughly documented.
+This is the repository for the Fall 2020 IEOR 135: Data Science with Venture Applications (also known as [Data X](https://datax.berkeley.edu/)) class at UC Berkeley. It is a semester long project to solve a Data Science related problem for a company or research related interests. We worked with [Materiall](https://materiall.com/) this semester to try and understand the driving features in the home buying market so that Materiall can improve its reccomendation engine. The Repository is setup as follows:
+ - Code
+ - Data
+ - Documentation
+ - Images
+
+## Problem Statement: 
+
+
+The specific image classification models to be implemented can be understood in steps. As a first pass, students will implement an image classification model that can predict the room in which the image was taken. Students will have the ability to train their models first on a set of labeled images and then deployed and tested. An important component of the first step is the identification of a suitable training set within the catalogue of bay area homes. The next problem will focus on object detection per room type. The idea here is to detect important attributes of a home which may already be catalogued (such as number of bedrooms, number of bathrooms, etc.,) as well as other attributes which may not be listed but inferred from the objects detected (for example lighting in a room may be a function of the number of windows detected or kitchen space could be a function of the number of distinct objects present in the image). Finally as a last step we will aim to build an image classifier for the extracted attributes. 
+
+
+## Learning Path:
+
+We started by scraping [Realtor.com](https://www.realtor.com/) for home images with the intent to eventually determine the features within the images, such as an island within a kitchen. Once the webscraping was completed, we designed a few neural networks to make a pipeline to detect objects within the images. The first iteration was whether the image was indoors or outdoors, then which room if it was indoors, and finally which features in the room given the room type. Due to the limitations of time and data, our team only completed up until the room classifier and did not get to the object detection within those images. Now that we have successfully classified the rooms, the next step is work on specific image detection. We want to use the ADE20K Scene parcer to segment features in the images, by separating our images by room, and then running models trained on the ADE20K dataset, we can find specific things like islands, cabinets and other features in a home. These models would be harnessed on materiall’s website where they will create a search engine where you can input specific home features and search for homes with those specified features. 
+
+ 
+ 
 
